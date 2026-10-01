@@ -1,0 +1,219 @@
+country,split,stratum
+Afghanistan,validation,size_q3
+Albania,train,size_q2
+Algeria,train,size_q4
+Andorra,test,size_q1
+Angola,test,size_q3
+Anguilla,test,size_q1
+Antarctica,test,size_q1
+Antigua and Barbuda,validation,size_q1
+Argentina,train,size_q4
+Armenia,test,size_q2
+Aruba,train,size_q2
+Australia,test,size_q4
+Austria,train,size_q4
+Azerbaijan,validation,size_q3
+Bahamas,train,size_q2
+Bahrain,train,size_q3
+Bangladesh,test,size_q4
+Barbados,train,size_q2
+Belarus,train,size_q4
+Belgium,train,size_q4
+Belize,train,size_q1
+Benin,test,size_q2
+Bermuda,train,size_q1
+Bhutan,train,size_q2
+Bolivia,train,size_q3
+Bonaire Sint Eustatius and Saba,validation,size_q1
+Bosnia and Herzegovina,train,size_q3
+Botswana,validation,size_q2
+Brazil,train,size_q4
+British Virgin Islands,train,size_q1
+Brunei,train,size_q3
+Bulgaria,train,size_q3
+Burkina Faso,train,size_q2
+Burundi,train,size_q1
+Cambodia,validation,size_q2
+Cameroon,train,size_q3
+Canada,train,size_q4
+Cape Verde,train,size_q1
+Central African Republic,validation,size_q1
+Chad,test,size_q2
+Chile,test,size_q4
+China,validation,size_q4
+Christmas Island,validation,size_q1
+Colombia,validation,size_q4
+Comoros,test,size_q1
+Congo,train,size_q2
+Cook Islands,test,size_q1
+Costa Rica,train,size_q2
+Cote d'Ivoire,train,size_q3
+Croatia,test,size_q3
+Cuba,validation,size_q3
+Curacao,train,size_q2
+Cyprus,train,size_q2
+Czechia,test,size_q4
+Democratic Republic of Congo,train,size_q2
+Denmark,validation,size_q3
+Djibouti,test,size_q1
+Dominica,train,size_q1
+Dominican Republic,test,size_q3
+East Timor,validation,size_q1
+Ecuador,validation,size_q3
+Egypt,validation,size_q4
+El Salvador,train,size_q2
+Equatorial Guinea,train,size_q2
+Eritrea,train,size_q1
+Estonia,train,size_q3
+Eswatini,train,size_q1
+Ethiopia,train,size_q2
+Faroe Islands,validation,size_q1
+Fiji,train,size_q1
+Finland,train,size_q3
+France,train,size_q4
+French Polynesia,train,size_q1
+Gabon,train,size_q2
+Gambia,validation,size_q1
+Georgia,validation,size_q3
+Germany,validation,size_q4
+Ghana,test,size_q3
+Greece,train,size_q4
+Greenland,train,size_q1
+Grenada,train,size_q1
+Guatemala,test,size_q3
+Guinea,train,size_q2
+Guinea-Bissau,train,size_q1
+Guyana,validation,size_q2
+Haiti,test,size_q2
+Honduras,train,size_q3
+Hong Kong,validation,size_q3
+Hungary,validation,size_q3
+Iceland,test,size_q2
+India,test,size_q4
+Indonesia,validation,size_q4
+Iran,train,size_q4
+Iraq,train,size_q4
+Ireland,train,size_q3
+Israel,test,size_q4
+Italy,train,size_q4
+Jamaica,train,size_q3
+Japan,test,size_q4
+Jordan,train,size_q3
+Kazakhstan,validation,size_q4
+Kenya,validation,size_q3
+Kiribati,train,size_q1
+Kuwait,validation,size_q4
+Kyrgyzstan,test,size_q3
+Laos,train,size_q2
+Latvia,train,size_q2
+Lebanon,validation,size_q3
+Lesotho,test,size_q2
+Liberia,train,size_q1
+Libya,train,size_q3
+Liechtenstein,train,size_q1
+Lithuania,train,size_q3
+Luxembourg,train,size_q3
+Macao,validation,size_q2
+Madagascar,train,size_q2
+Malawi,train,size_q1
+Malaysia,train,size_q4
+Maldives,test,size_q2
+Mali,train,size_q2
+Malta,test,size_q2
+Marshall Islands,validation,size_q1
+Mauritania,test,size_q2
+Mauritius,train,size_q2
+Mexico,train,size_q4
+Micronesia (country),train,size_q1
+Moldova,train,size_q2
+Monaco,validation,no_data
+Mongolia,train,size_q3
+Montenegro,validation,size_q2
+Montserrat,train,size_q1
+Morocco,train,size_q4
+Mozambique,validation,size_q2
+Myanmar,train,size_q3
+Namibia,train,size_q2
+Nauru,test,size_q1
+Nepal,train,size_q2
+Netherlands,validation,size_q4
+New Caledonia,validation,size_q2
+New Zealand,train,size_q3
+Nicaragua,train,size_q2
+Niger,train,size_q2
+Nigeria,validation,size_q4
+Niue,train,size_q1
+North Korea,test,size_q4
+North Macedonia,test,size_q2
+Norway,train,size_q3
+Oman,train,size_q4
+Pakistan,train,size_q4
+Palau,test,size_q1
+Palestine,validation,size_q2
+Panama,train,size_q3
+Papua New Guinea,train,size_q2
+Paraguay,train,size_q2
+Peru,train,size_q3
+Philippines,train,size_q4
+Poland,train,size_q4
+Portugal,train,size_q3
+Qatar,train,size_q4
+Romania,train,size_q4
+Russia,train,size_q4
+Rwanda,test,size_q1
+Saint Helena,train,size_q1
+Saint Kitts and Nevis,validation,size_q1
+Saint Lucia,train,size_q1
+Saint Pierre and Miquelon,train,size_q1
+Saint Vincent and the Grenadines,train,size_q1
+Samoa,train,size_q1
+San Marino,train,no_data
+Sao Tome and Principe,test,size_q1
+Saudi Arabia,train,size_q4
+Senegal,train,size_q2
+Serbia,test,size_q3
+Seychelles,train,size_q1
+Sierra Leone,test,size_q1
+Singapore,train,size_q3
+Sint Maarten (Dutch part),train,size_q1
+Slovakia,test,size_q3
+Slovenia,train,size_q3
+Solomon Islands,validation,size_q1
+Somalia,train,size_q1
+South Africa,validation,size_q4
+South Korea,test,size_q4
+South Sudan,train,size_q2
+Spain,test,size_q4
+Sri Lanka,train,size_q3
+Sudan,validation,size_q3
+Suriname,train,size_q2
+Sweden,train,size_q3
+Switzerland,train,size_q3
+Syria,train,size_q3
+Taiwan,train,size_q4
+Tajikistan,test,size_q2
+Tanzania,test,size_q3
+Thailand,train,size_q4
+Togo,validation,size_q2
+Tonga,validation,size_q1
+Trinidad and Tobago,train,size_q3
+Tunisia,train,size_q3
+Turkey,train,size_q4
+Turkmenistan,train,size_q4
+Turks and Caicos Islands,train,size_q1
+Tuvalu,train,size_q1
+Uganda,validation,size_q2
+Ukraine,train,size_q4
+United Arab Emirates,validation,size_q4
+United Kingdom,test,size_q4
+United States,train,size_q4
+Uruguay,validation,size_q2
+Uzbekistan,train,size_q4
+Vanuatu,train,size_q1
+Vatican,train,no_data
+Venezuela,train,size_q4
+Vietnam,train,size_q4
+Wallis and Futuna,train,size_q1
+Yemen,test,size_q3
+Zambia,train,size_q2
+Zimbabwe,train,size_q3

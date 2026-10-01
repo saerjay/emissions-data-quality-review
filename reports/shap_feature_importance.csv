@@ -1,0 +1,8 @@
+Feature,SHAP_Importance,Transform,Selected,Selection_Reason
+ghg_per_capita,0.2922146093141788,asinh,True,top SHAP
+methane,0.26284976207345134,asinh,True,top SHAP
+population,0.2515621431835152,asinh,True,top SHAP
+nitrous_oxide,0.2478734926835426,asinh,False,not selected
+gdp,0.23320172170645945,asinh,False,not selected
+co2,0.19660995052863606,asinh,True,required (core metric)
+primary_energy_consumption,0.18988039766207998,asinh,False,not selected

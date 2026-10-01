@@ -1,0 +1,29 @@
+{
+  "transform": "cbrt",
+  "use_ratios": true,
+  "contamination": 0.01,
+  "range_z": 4.0,
+  "fpr_budget": 0.03,
+  "reason": "Highest recall on errors the schema cannot catch (63.8%) among configurations within the 3% false-positive budget (0.03); validation false-positive rate 0.2%.",
+  "validation": {
+    "recall_statistical": 0.6375,
+    "recall_all": 0.7929,
+    "false_positive_rate": 0.0021,
+    "precision": 0.9851,
+    "clean_rows": 810.0
+  },
+  "test": {
+    "recall_statistical": 0.6417,
+    "recall_all": 0.7952,
+    "false_positive_rate": 0.0395,
+    "precision": 0.7609,
+    "clean_rows": 885.0
+  },
+  "n_per_type": 20,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "evaluated_at": "2026-10-01T21:32:27+00:00"
+}

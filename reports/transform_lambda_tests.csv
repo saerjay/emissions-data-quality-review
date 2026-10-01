@@ -1,0 +1,8 @@
+feature,family,lambda_hat,ci_low,ci_high,lr_stat,p_value,log_supported
+population,box_cox,0.0875,0.0666,0.1085,69.29,8.504282947869697e-17,False
+gdp,box_cox,0.0087,-0.0094,0.0268,0.89,0.3448188904056759,True
+co2,box_cox,0.0192,0.0025,0.036,5.07,0.024342262871488034,False
+primary_energy_consumption,box_cox,0.0079,-0.0095,0.0253,0.79,0.37445474344022633,True
+methane,box_cox,0.1103,0.0931,0.1276,162.31,3.5347865349575844e-37,False
+nitrous_oxide,box_cox,0.1182,0.1008,0.1357,181.2,2.657532604828608e-41,False
+ghg_per_capita,box_cox,-0.0156,-0.0572,0.0258,0.55,0.45944160842223647,True

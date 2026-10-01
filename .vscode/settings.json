@@ -1,0 +1,8 @@
+{
+    // This project's own interpreter. Overrides the user-level default (dtsc680),
+    // so terminals, the test runner and the linter all use .venv.
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": ["tests"]
+}

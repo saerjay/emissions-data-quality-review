@@ -1,0 +1,30 @@
+# App theme built from teal #478978, periwinkle #8B95C9, sky #ACD7EC and rust #9D5E49.
+# Values must match design.TOKENS (checked by tests/test_design.py).
+[theme]
+base = "light"
+primaryColor = "#2f6356"
+backgroundColor = "#f4f8f9"
+secondaryBackgroundColor = "#e6f2f7"
+textColor = "#1f2d33"
+borderColor = "#cfe1e8"
+dataframeBorderColor = "#cfe1e8"
+dataframeHeaderBackgroundColor = "#e6f2f7"
+linkColor = "#2f6356"
+baseRadius = "0.6rem"
+showWidgetBorder = true
+showSidebarBorder = true
+chartCategoricalColors = ["#478978", "#8B95C9", "#9D5E49", "#ACD7EC"]
+baseFontSize = 16
+# Message boxes use theme tints (must match design.ALERTS)
+blueBackgroundColor = "#e5f2f8"
+blueTextColor = "#1f4f63"
+greenBackgroundColor = "#e3f0ec"
+greenTextColor = "#2f6356"
+yellowBackgroundColor = "#f5ebe7"
+yellowTextColor = "#7a4433"
+redBackgroundColor = "#f5ebe7"
+redTextColor = "#7a4433"
+headingFontWeights = [700, 650, 600, 600, 600, 600]
+
+[browser]
+gatherUsageStats = false

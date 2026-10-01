@@ -1,0 +1,15 @@
+split,stratum,countries,rows
+test,size_q1,11,275
+test,size_q2,11,275
+test,size_q3,10,250
+test,size_q4,11,275
+train,no_data,2,50
+train,size_q1,32,800
+train,size_q2,32,800
+train,size_q3,32,800
+train,size_q4,32,800
+validation,no_data,1,25
+validation,size_q1,11,275
+validation,size_q2,11,275
+validation,size_q3,11,275
+validation,size_q4,11,275

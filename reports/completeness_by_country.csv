@@ -1,0 +1,219 @@
+country,split,status,features_missing_entirely,pct_values_present,in_final_dataset
+Afghanistan,validation,complete,,100.0,True
+Albania,train,complete,,100.0,True
+Algeria,train,complete,,100.0,True
+Andorra,test,complete,,100.0,True
+Angola,test,complete,,100.0,True
+Antigua and Barbuda,validation,complete,,100.0,True
+Argentina,train,complete,,100.0,True
+Armenia,test,complete,,100.0,True
+Aruba,train,complete,,100.0,True
+Australia,test,complete,,100.0,True
+Austria,train,complete,,100.0,True
+Azerbaijan,validation,complete,,100.0,True
+Bahamas,train,complete,,100.0,True
+Bahrain,train,complete,,100.0,True
+Bangladesh,test,complete,,100.0,True
+Barbados,train,complete,,100.0,True
+Belarus,train,complete,,100.0,True
+Belgium,train,complete,,100.0,True
+Belize,train,complete,,100.0,True
+Benin,test,complete,,100.0,True
+Bhutan,train,complete,,100.0,True
+Bolivia,train,complete,,100.0,True
+Bosnia and Herzegovina,train,complete,,100.0,True
+Botswana,validation,complete,,100.0,True
+Brazil,train,complete,,100.0,True
+British Virgin Islands,train,complete,,100.0,True
+Brunei,train,complete,,100.0,True
+Bulgaria,train,complete,,100.0,True
+Burkina Faso,train,complete,,100.0,True
+Burundi,train,complete,,100.0,True
+Cambodia,validation,complete,,100.0,True
+Cameroon,train,complete,,100.0,True
+Canada,train,complete,,100.0,True
+Cape Verde,train,complete,,100.0,True
+Central African Republic,validation,complete,,100.0,True
+Chad,test,complete,,100.0,True
+Chile,test,complete,,100.0,True
+China,validation,complete,,100.0,True
+Colombia,validation,complete,,100.0,True
+Comoros,test,complete,,100.0,True
+Congo,train,complete,,100.0,True
+Cook Islands,test,complete,,100.0,True
+Costa Rica,train,complete,,100.0,True
+Cote d'Ivoire,train,complete,,100.0,True
+Croatia,test,complete,,100.0,True
+Cuba,validation,complete,,100.0,True
+Cyprus,train,complete,,100.0,True
+Czechia,test,complete,,100.0,True
+Democratic Republic of Congo,train,complete,,100.0,True
+Denmark,validation,complete,,100.0,True
+Djibouti,test,complete,,100.0,True
+Dominica,train,complete,,100.0,True
+Dominican Republic,test,complete,,100.0,True
+East Timor,validation,complete,,100.0,True
+Ecuador,validation,complete,,100.0,True
+Egypt,validation,complete,,100.0,True
+El Salvador,train,complete,,100.0,True
+Equatorial Guinea,train,complete,,100.0,True
+Eritrea,train,complete,,100.0,True
+Estonia,train,complete,,100.0,True
+Eswatini,train,complete,,100.0,True
+Ethiopia,train,complete,,100.0,True
+Fiji,train,complete,,100.0,True
+Finland,train,complete,,100.0,True
+France,train,complete,,100.0,True
+Gabon,train,complete,,100.0,True
+Gambia,validation,complete,,100.0,True
+Georgia,validation,complete,,100.0,True
+Germany,validation,complete,,100.0,True
+Ghana,test,complete,,100.0,True
+Greece,train,complete,,100.0,True
+Grenada,train,complete,,100.0,True
+Guatemala,test,complete,,100.0,True
+Guinea,train,complete,,100.0,True
+Guinea-Bissau,train,complete,,100.0,True
+Guyana,validation,complete,,100.0,True
+Haiti,test,complete,,100.0,True
+Honduras,train,complete,,100.0,True
+Hong Kong,validation,complete,,100.0,True
+Hungary,validation,complete,,100.0,True
+Iceland,test,complete,,100.0,True
+India,test,complete,,100.0,True
+Indonesia,validation,complete,,100.0,True
+Iran,train,complete,,100.0,True
+Iraq,train,complete,,100.0,True
+Ireland,train,complete,,100.0,True
+Israel,test,complete,,100.0,True
+Italy,train,complete,,100.0,True
+Jamaica,train,complete,,100.0,True
+Japan,test,complete,,100.0,True
+Jordan,train,complete,,100.0,True
+Kazakhstan,validation,complete,,100.0,True
+Kenya,validation,complete,,100.0,True
+Kiribati,train,complete,,100.0,True
+Kuwait,validation,complete,,100.0,True
+Kyrgyzstan,test,complete,,100.0,True
+Laos,train,complete,,100.0,True
+Latvia,train,complete,,100.0,True
+Lebanon,validation,complete,,100.0,True
+Lesotho,test,complete,,100.0,True
+Liberia,train,complete,,100.0,True
+Libya,train,complete,,100.0,True
+Liechtenstein,train,complete,,100.0,True
+Lithuania,train,complete,,100.0,True
+Luxembourg,train,complete,,100.0,True
+Macao,validation,complete,,100.0,True
+Madagascar,train,complete,,100.0,True
+Malawi,train,complete,,100.0,True
+Malaysia,train,complete,,100.0,True
+Maldives,test,complete,,100.0,True
+Mali,train,complete,,100.0,True
+Malta,test,complete,,100.0,True
+Mauritania,test,complete,,100.0,True
+Mauritius,train,complete,,100.0,True
+Mexico,train,complete,,100.0,True
+Micronesia (country),train,complete,,100.0,True
+Moldova,train,complete,,100.0,True
+Mongolia,train,complete,,100.0,True
+Montenegro,validation,complete,,100.0,True
+Morocco,train,complete,,100.0,True
+Mozambique,validation,complete,,100.0,True
+Myanmar,train,complete,,100.0,True
+Namibia,train,complete,,100.0,True
+Nauru,test,complete,,100.0,True
+Nepal,train,complete,,100.0,True
+Netherlands,validation,complete,,100.0,True
+New Zealand,train,complete,,100.0,True
+Nicaragua,train,complete,,100.0,True
+Niger,train,complete,,100.0,True
+Nigeria,validation,complete,,100.0,True
+Niue,train,complete,,100.0,True
+North Korea,test,complete,,100.0,True
+North Macedonia,test,complete,,100.0,True
+Norway,train,complete,,100.0,True
+Oman,train,complete,,100.0,True
+Pakistan,train,complete,,100.0,True
+Palau,test,complete,,100.0,True
+Panama,train,complete,,100.0,True
+Papua New Guinea,train,complete,,100.0,True
+Paraguay,train,complete,,100.0,True
+Peru,train,complete,,100.0,True
+Philippines,train,complete,,100.0,True
+Poland,train,complete,,100.0,True
+Portugal,train,complete,,100.0,True
+Qatar,train,complete,,100.0,True
+Romania,train,complete,,100.0,True
+Russia,train,complete,,100.0,True
+Rwanda,test,complete,,100.0,True
+Saint Helena,train,complete,,100.0,True
+Saint Kitts and Nevis,validation,complete,,100.0,True
+Saint Lucia,train,complete,,100.0,True
+Saint Vincent and the Grenadines,train,complete,,100.0,True
+Samoa,train,complete,,100.0,True
+Sao Tome and Principe,test,complete,,100.0,True
+Saudi Arabia,train,complete,,100.0,True
+Senegal,train,complete,,100.0,True
+Serbia,test,complete,,100.0,True
+Seychelles,train,complete,,100.0,True
+Sierra Leone,test,complete,,100.0,True
+Singapore,train,complete,,100.0,True
+Slovakia,test,complete,,100.0,True
+Slovenia,train,complete,,100.0,True
+Solomon Islands,validation,complete,,100.0,True
+Somalia,train,complete,,100.0,True
+South Africa,validation,complete,,100.0,True
+South Korea,test,complete,,100.0,True
+South Sudan,train,complete,,100.0,True
+Spain,test,complete,,100.0,True
+Sri Lanka,train,complete,,100.0,True
+Sudan,validation,complete,,100.0,True
+Suriname,train,complete,,100.0,True
+Sweden,train,complete,,100.0,True
+Switzerland,train,complete,,100.0,True
+Syria,train,complete,,100.0,True
+Taiwan,train,complete,,100.0,True
+Tajikistan,test,complete,,100.0,True
+Tanzania,test,complete,,100.0,True
+Thailand,train,complete,,100.0,True
+Togo,validation,complete,,100.0,True
+Tonga,validation,complete,,100.0,True
+Trinidad and Tobago,train,complete,,100.0,True
+Tunisia,train,complete,,100.0,True
+Turkey,train,complete,,100.0,True
+Turkmenistan,train,complete,,100.0,True
+Turks and Caicos Islands,train,complete,,100.0,True
+Tuvalu,train,complete,,100.0,True
+Uganda,validation,complete,,100.0,True
+Ukraine,train,complete,,100.0,True
+United Arab Emirates,validation,complete,,100.0,True
+United Kingdom,test,complete,,100.0,True
+United States,train,complete,,100.0,True
+Uruguay,validation,complete,,100.0,True
+Uzbekistan,train,complete,,100.0,True
+Vanuatu,train,complete,,100.0,True
+Venezuela,train,complete,,100.0,True
+Vietnam,train,complete,,100.0,True
+Yemen,test,complete,,100.0,True
+Zambia,train,complete,,100.0,True
+Zimbabwe,train,complete,,100.0,True
+Anguilla,test,missing,"ghg_per_capita, methane",50.0,False
+Antarctica,test,missing,"ghg_per_capita, methane, population",25.0,False
+Bermuda,train,missing,"ghg_per_capita, methane",50.0,False
+Bonaire Sint Eustatius and Saba,validation,missing,"ghg_per_capita, methane",50.0,False
+Christmas Island,validation,missing,"ghg_per_capita, methane, population",25.0,False
+Curacao,train,missing,"ghg_per_capita, methane",50.0,False
+Faroe Islands,validation,missing,"ghg_per_capita, methane",50.0,False
+French Polynesia,train,missing,"ghg_per_capita, methane",50.0,False
+Greenland,train,missing,"ghg_per_capita, methane",50.0,False
+Marshall Islands,validation,missing,"ghg_per_capita, methane",50.0,False
+Monaco,validation,missing,"ghg_per_capita, methane, co2",25.0,False
+Montserrat,train,missing,"ghg_per_capita, methane",50.0,False
+New Caledonia,validation,missing,"ghg_per_capita, methane",50.0,False
+Palestine,validation,missing,"ghg_per_capita, methane",50.0,False
+Saint Pierre and Miquelon,train,missing,"ghg_per_capita, methane",50.0,False
+San Marino,train,missing,"ghg_per_capita, methane, co2",25.0,False
+Sint Maarten (Dutch part),train,missing,"ghg_per_capita, methane",50.0,False
+Vatican,train,missing,"ghg_per_capita, methane, co2",25.0,False
+Wallis and Futuna,train,missing,"ghg_per_capita, methane",50.0,False

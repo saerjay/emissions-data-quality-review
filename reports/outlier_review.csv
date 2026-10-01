@@ -1,0 +1,93 @@
+country,year,feature,value,previous_value,pct_change,robust_z,pattern
+Singapore,2002,nitrous_oxide,1.022,8.579,-0.8808718964914326,-50.5,level_shift
+Equatorial Guinea,2002,primary_energy_consumption,28.23,1.823,14.485463521667581,42.7,level_shift
+Libya,2011,methane,15.046,38.801,-0.6122264890080154,-33.7,spike_and_revert
+Botswana,2010,nitrous_oxide,8.617,2.496,2.4523237179487185,32.7,rebound
+Botswana,2010,methane,11.395,4.634,1.4589987052222697,28.9,rebound
+Libya,2011,gdp,79210078190.0,187528533215.0,-0.5776105276780134,-28.2,spike_and_revert
+Botswana,2009,nitrous_oxide,2.496,7.294,-0.6578009322731011,-28.1,rebound
+Libya,2012,methane,33.124,15.046,1.2015153529177192,27.7,rebound
+Equatorial Guinea,2004,primary_energy_consumption,6.19,30.59,-0.7976462896371364,-27.7,spike_and_revert
+Botswana,2003,nitrous_oxide,1.954,5.882,-0.6678000680040803,-27.5,level_shift
+Libya,2020,methane,13.217,28.804,-0.5411401194278572,-27.5,spike_and_revert
+Botswana,2012,nitrous_oxide,4.338,11.191,-0.61236708068984,-26.9,level_shift
+Libya,2021,methane,28.265,13.217,1.1385337065899979,26.5,rebound
+Botswana,2012,methane,6.837,14.122,-0.5158617759524147,-24.5,level_shift
+Botswana,2008,nitrous_oxide,7.294,2.887,1.526498094908209,24.4,spike_and_revert
+Botswana,2009,methane,4.634,9.762,-0.5253021921737349,-24.1,rebound
+Botswana,2003,methane,3.757,7.968,-0.5284889558232931,-23.6,level_shift
+Botswana,2021,nitrous_oxide,7.459,3.204,1.328027465667915,22.5,level_shift
+Botswana,2008,methane,9.762,4.866,1.0061652281134403,22.2,spike_and_revert
+Equatorial Guinea,2005,primary_energy_consumption,22.59,6.19,2.6494345718901453,21.5,rebound
+Australia,2011,nitrous_oxide,102.145,53.296,0.9165603422395676,20.7,level_shift
+Botswana,2021,methane,9.315,4.853,0.919431279620853,20.7,level_shift
+Namibia,2013,nitrous_oxide,3.393,6.927,-0.5101775660459074,-19.3,level_shift
+Libya,2017,methane,22.065,12.939,0.705309529329933,18.4,level_shift
+Libya,2012,gdp,147985814988.0,79210078190.0,0.8682700278748456,18.3,rebound
+Namibia,2013,methane,5.484,9.501,-0.42279760025260493,-18.0,level_shift
+Libya,2014,methane,14.898,24.399,-0.3894012049674167,-17.5,level_shift
+Georgia,2003,ghg_per_capita,0.543,2.824,-0.8077195467422096,-17.0,rebound
+Central African Republic,2013,gdp,2929689000.0,4632212000.0,-0.3675399571522201,-15.5,level_shift
+Afghanistan,2002,gdp,18804871508.0,11021272927.0,0.706234083173068,15.5,level_shift
+Australia,2013,nitrous_oxide,63.836,102.902,-0.3796427669044333,-15.4,level_shift
+Liberia,2003,gdp,2541250362.0,3998735673.0,-0.36448653529192654,-15.4,level_shift
+Equatorial Guinea,2001,gdp,10710877546.0,6341192117.0,0.6890952597517714,15.2,level_shift
+Yemen,2015,methane,11.111,17.152,-0.3522038246268657,-15.1,level_shift
+Australia,2003,nitrous_oxide,60.966,97.392,-0.3740142927550517,-15.1,spike_and_revert
+Qatar,2007,population,1208601.0,972841.0,0.2423417598559272,15.1,level_shift
+Iraq,2003,nitrous_oxide,4.028,6.918,-0.4177507950274647,-14.8,level_shift
+Montenegro,2018,ghg_per_capita,2.982,0.858,2.475524475524476,14.5,level_shift
+Iraq,2004,gdp,155937247290.0,94480598969.0,0.6504684452854128,14.5,level_shift
+Netherlands,2008,nitrous_oxide,9.823,15.652,-0.37241247124968047,-14.1,level_shift
+Montenegro,2009,ghg_per_capita,0.763,2.724,-0.7198972099853158,-14.0,spike_and_revert
+Lithuania,2001,ghg_per_capita,3.123,0.974,2.2063655030800824,14.0,level_shift
+Botswana,2017,nitrous_oxide,3.979,2.22,0.7923423423423421,14.0,spike_and_revert
+Congo,2002,methane,10.534,15.634,-0.32621210182934623,-13.7,level_shift
+Kazakhstan,2002,nitrous_oxide,12.083,7.601,0.5896592553611366,13.5,spike_and_revert
+Cote d'Ivoire,2015,ghg_per_capita,4.505,10.02,-0.5503992015968064,-13.0,level_shift
+Gabon,2001,nitrous_oxide,0.323,0.961,-0.663891779396462,-12.9,level_shift
+Libya,2020,co2,36.111,73.778,-0.5105451489603947,-12.8,spike_and_revert
+Namibia,2011,nitrous_oxide,6.352,3.928,0.6171079429735236,12.8,level_shift
+Ukraine,2022,gdp,309166674673.0,443313281092.0,-0.3026000170546679,-12.5,level_shift
+Botswana,2010,ghg_per_capita,13.802,6.678,1.0667864630128783,12.5,rebound
+Myanmar,2018,nitrous_oxide,13.814,20.67,-0.3316884373488148,-12.5,level_shift
+Libya,2020,ghg_per_capita,7.191,14.964,-0.5194466720128308,-12.5,spike_and_revert
+Kenya,2007,methane,39.619,27.789,0.425708013962359,12.5,level_shift
+Estonia,2020,methane,1.754,2.841,-0.3826117564237945,-12.5,level_shift
+Guinea,2009,ghg_per_capita,8.988,4.219,1.1303626451765818,12.4,level_shift
+Kenya,2007,nitrous_oxide,15.427,10.174,0.5163160998623944,12.4,level_shift
+Venezuela,2020,gdp,138029481377.0,197170883456.0,-0.29994997761521824,-12.4,level_shift
+North Korea,2017,co2,69.708,34.236,1.0361023484051874,12.2,level_shift
+Libya,2020,gdp,81726075633.0,115851209708.0,-0.2945600150487122,-12.1,spike_and_revert
+Mozambique,2014,co2,8.118,3.579,1.2682313495389774,12.0,level_shift
+Senegal,2007,ghg_per_capita,3.629,1.482,1.448717948717949,11.9,level_shift
+Namibia,2020,nitrous_oxide,3.609,2.193,0.6456908344733241,11.8,level_shift
+Yemen,2015,primary_energy_consumption,52.187,96.989,-0.46192867232366563,-11.7,level_shift
+Liberia,2018,primary_energy_consumption,2.18,4.826,-0.5482801491918773,-11.6,spike_and_revert
+Ecuador,2003,ghg_per_capita,9.536,4.743,1.0105418511490614,11.6,spike_and_revert
+Yemen,2015,gdp,75305316956.0,104583458743.0,-0.2799500240181113,-11.5,level_shift
+Georgia,2002,ghg_per_capita,2.824,1.101,1.5649409627611264,11.4,spike_and_revert
+Qatar,2008,population,1426942.0,1208601.0,0.1806559815853206,11.4,level_shift
+Venezuela,2019,gdp,197170883456.0,272599019803.0,-0.27669995439275563,-11.3,level_shift
+Namibia,2011,methane,8.671,6.077,0.4268553562613131,11.3,level_shift
+Australia,2011,methane,193.829,141.697,0.3679118118238214,11.3,level_shift
+Botswana,2020,methane,4.853,3.287,0.4764222695466991,11.3,level_shift
+Qatar,2006,population,972841.0,825419.0,0.17860262484871314,11.2,level_shift
+Botswana,2017,methane,5.568,3.824,0.4560669456066946,11.2,spike_and_revert
+Syria,2012,methane,13.561,18.615,-0.27150147730325,-11.2,level_shift
+Botswana,2009,ghg_per_capita,6.678,13.001,-0.486347204061226,-11.2,spike_and_revert
+Bolivia,2003,ghg_per_capita,26.471,14.255,0.8569624693090143,11.2,spike_and_revert
+Libya,2013,methane,24.399,33.124,-0.26340417823934315,-11.1,level_shift
+Laos,2015,co2,9.185,4.383,1.0955966233173626,11.1,level_shift
+Yemen,2015,co2,14.123,26.592,-0.4689004211793021,-11.0,level_shift
+Afghanistan,2008,primary_energy_consumption,15.04,7.758,0.9386439804073214,10.8,level_shift
+Syria,2012,gdp,98907693956.0,134274046453.0,-0.2633893401684241,-10.8,level_shift
+Syria,2013,gdp,72894799336.0,98907693956.0,-0.263001729992533,-10.8,level_shift
+Laos,2015,primary_energy_consumption,37.288,19.834,0.8800040334778663,10.8,level_shift
+North Korea,2017,primary_energy_consumption,228.044,123.943,0.8399102813390027,10.8,level_shift
+Democratic Republic of Congo,2008,ghg_per_capita,7.312,3.752,0.9488272921108745,10.7,level_shift
+Lebanon,2020,gdp,50772560784.0,68525451094.0,-0.259070024736465,-10.6,level_shift
+Panama,2020,co2,6.557,12.449,-0.4732910273917583,-10.6,spike_and_revert
+Saint Lucia,2020,gdp,1361621707.0,1824037649.0,-0.2535122793400193,-10.4,level_shift
+Lesotho,2015,ghg_per_capita,3.894,1.839,1.1174551386623164,10.4,level_shift
+Namibia,2009,nitrous_oxide,4.279,2.842,0.5056298381421533,10.2,level_shift

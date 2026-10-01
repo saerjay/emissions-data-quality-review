@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+# Raw snapshots are large; commit the manifest (sha256 + source + date), not the CSV
+data/raw/*.csv
+!data/raw/*.manifest.json
+
+# Personal working notes (kept local)
+Notes to self.txt

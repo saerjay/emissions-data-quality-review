@@ -1,0 +1,56 @@
+country,features_never_reported
+Andorra,"gdp, primary_energy_consumption"
+Anguilla,"gdp, primary_energy_consumption, methane, ghg_per_capita"
+Antarctica,"population, gdp, methane, nitrous_oxide, ghg_per_capita"
+Antigua and Barbuda,gdp
+Aruba,gdp
+Bahamas,gdp
+Belize,gdp
+Bermuda,"gdp, methane, nitrous_oxide, ghg_per_capita"
+Bhutan,gdp
+Bonaire Sint Eustatius and Saba,"gdp, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"
+British Virgin Islands,gdp
+Brunei,gdp
+Christmas Island,"population, gdp, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"
+Cook Islands,gdp
+Curacao,"gdp, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"
+East Timor,gdp
+Eritrea,gdp
+Faroe Islands,"gdp, methane, nitrous_oxide, ghg_per_capita"
+Fiji,gdp
+French Polynesia,"gdp, methane, nitrous_oxide, ghg_per_capita"
+Greenland,"gdp, methane, nitrous_oxide, ghg_per_capita"
+Grenada,gdp
+Guyana,gdp
+Kiribati,gdp
+Liechtenstein,"gdp, primary_energy_consumption"
+Macao,gdp
+Maldives,gdp
+Marshall Islands,"gdp, primary_energy_consumption, methane, ghg_per_capita"
+Micronesia (country),gdp
+Monaco,"gdp, co2, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"
+Montserrat,"gdp, methane, nitrous_oxide, ghg_per_capita"
+Nauru,gdp
+New Caledonia,"gdp, methane, nitrous_oxide, ghg_per_capita"
+Niue,gdp
+Palau,"gdp, primary_energy_consumption"
+Palestine,"methane, nitrous_oxide, ghg_per_capita"
+Papua New Guinea,gdp
+Saint Helena,gdp
+Saint Kitts and Nevis,gdp
+Saint Pierre and Miquelon,"gdp, methane, nitrous_oxide, ghg_per_capita"
+Saint Vincent and the Grenadines,gdp
+Samoa,gdp
+San Marino,"gdp, co2, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"
+Sint Maarten (Dutch part),"gdp, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"
+Solomon Islands,gdp
+Somalia,gdp
+South Sudan,gdp
+Sudan,gdp
+Suriname,gdp
+Tonga,gdp
+Turks and Caicos Islands,gdp
+Tuvalu,gdp
+Vanuatu,gdp
+Vatican,"gdp, co2, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"
+Wallis and Futuna,"gdp, primary_energy_consumption, methane, nitrous_oxide, ghg_per_capita"

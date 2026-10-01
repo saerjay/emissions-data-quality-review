@@ -1,0 +1,8 @@
+feature,pct_missing,years_fully_missing,countries_fully_missing,pct_of_gaps_from_empty_years,pct_of_gaps_from_empty_countries,pattern
+population,0.9,-,2,0.0,100.0,STRUCTURAL
+gdp,30.8,"2023, 2024",54,26.0,80.5,STRUCTURAL
+co2,1.4,-,3,0.0,100.0,STRUCTURAL
+primary_energy_consumption,6.5,-,13,0.0,92.3,STRUCTURAL
+methane,8.7,-,19,0.0,100.0,STRUCTURAL
+nitrous_oxide,7.8,-,17,0.0,100.0,STRUCTURAL
+ghg_per_capita,8.7,-,19,0.0,100.0,STRUCTURAL

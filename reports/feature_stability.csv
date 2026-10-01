@@ -1,0 +1,8 @@
+feature,selection_frequency,mean_rank,rank_sd,required
+co2,1.0,5.4,1.522,True
+ghg_per_capita,0.867,2.0,1.619,False
+population,0.6,3.533,1.943,False
+methane,0.467,3.767,1.675,False
+primary_energy_consumption,0.4,4.067,1.911,False
+nitrous_oxide,0.367,4.333,1.863,False
+gdp,0.3,4.9,1.709,False

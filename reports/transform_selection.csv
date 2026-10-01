@@ -1,0 +1,7 @@
+transform,mean_shapiro_w,min_shapiro_w,mean_abs_skew,kind,eligible,chosen,reason
+box_cox,0.9912142857142856,0.9837,0.008571428571428572,fitted,True,False,
+yeo_johnson,0.9878428571428571,0.9785,0.018571428571428572,fitted,True,False,
+asinh,0.9859714285714285,0.9727,0.16442857142857142,parameter-free,True,True,"asinh has the highest mean Shapiro-Wilk W (0.9860) of the parameter-free transforms; the best fitted option (box_cox) gains only +0.0052 W, within the 0.01 tolerance, so the simpler, interpretable transform is preferred."
+signed_log,0.9819714285714285,0.9628,0.2957142857142857,parameter-free,True,False,
+cbrt,0.8797142857142858,0.8135,1.5958571428571429,parameter-free,True,False,
+none,0.395,0.2271,6.076714285714286,parameter-free,True,False,
