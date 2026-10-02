@@ -94,3 +94,7 @@ Ritchie, H., Rosado, P., & Roser, M. (2023). *CO₂ and greenhouse gas emissions
 Rosado, P., Ritchie, H., Roser, M., Mathieu, E., & Macdonald, B. (n.d.). *Data on CO₂ and greenhouse gas emissions by Our World in Data* [Data set]. GitHub. Retrieved September 30, 2026, from https://github.com/owid/co2-data
 
 Our World in Data publishes this data under the Creative Commons BY license.
+
+## License
+
+The code is released under the [MIT License](LICENSE). The emissions data comes from Our World in Data and remains under its own Creative Commons BY license.
