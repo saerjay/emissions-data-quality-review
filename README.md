@@ -28,7 +28,7 @@ An automated quality review for emissions data. Before emissions numbers go into
 
 ### Quality improvement
 
-The first version found only 38% of the mistakes that basic rules cannot catch. Testing showed why: the pattern check cannot recognize values outside the range it was trained on, so a number 1,000 times too large looked like the largest real country. Adding a range check raised this to 64% while keeping false alarms within the 3% target on the validation set.
+The first version found only 38% of the mistakes that basic rules did not. Further testing revealed the pattern check cannot recognize values outside the range it was trained on, so a number 1,000 times too large looked like the largest real country. Adding a range check raised this to 64% while keeping false alarms within the 3% target on the validation set.
 
 | Emissions map and trend | Measured reliability |
 |---|---|
@@ -36,12 +36,12 @@ The first version found only 38% of the mistakes that basic rules cannot catch. 
 
 ## App tabs
 
-- **Dashboard:** readiness verdict, key numbers, takeaways and where to look first.
-- **Emissions Map:** map and year-by-year trend for any country and emission type, with an "unusualness" score.
+- **Dashboard:** readiness verdict, key numbers, takeaways and prioritized short list for manual review
+- **Emissions Map:** map and year-by-year trend for any country and emission type.
 - **Review Records:** the prioritized work queue, downloadable as CSV, with a closer look at each record.
 - **Test the Checker:** out-of-sample evaluation and the before/after improvement.
-- **Data Coverage:** what could not be checked and why.
-- **Methods:** study design, setting comparison and the full technical audit trail.
+- **Data Coverage:** data that could not be checked and why.
+- **Methods:** study design, setting comparison, and the full technical audit trail.
 
 ## Run it
 
@@ -79,13 +79,14 @@ python -m pytest         # 220 tests
 
 ## Accessibility
 
-The color theme (teal, periwinkle, sky, rust) is checked automatically: text meets WCAG AA contrast, and every pair of data colors is checked under simulated color blindness (Machado et al., 2009). Color is never the only cue: priorities carry icons and words, and flagged points use a different marker shape.
+The color theme (teal, periwinkle, sky, rust) is checked automatically: text meets WCAG AA contrast, and every pair of data colors is checked under simulated color blindness (Machado et al., 2009).
 
 ## Limitations
 
 - Unusual is not the same as wrong. Some countries (very large economies, small islands) are unusual every year; the review list ranks them as low priority.
 - 19 countries, mostly small islands and territories, could not be checked because a key measure was never reported.
 - Misplaced-decimal mistakes (10×) are the hardest to catch: 27% found on the test set.
+- This checker does not indicate which data are lower quality. It serves to streamline the manual review process and prioritize for human review.
 
 ## Data source
 
