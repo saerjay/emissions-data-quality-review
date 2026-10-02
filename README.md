@@ -1,5 +1,5 @@
 # Emissions Data Quality Review
-
+Link: https://emissions-data-quality-review.streamlit.app/
 An automated quality review for emissions data. Before emissions numbers go into a sustainability report, they need to be checked for quality and accuracy. This app checks every record in public country data from [Our World in Data](https://ourworldindata.org/co2-and-greenhouse-gas-emissions), flags what looks wrong, explains why, and produces a ranked list of records for manual review.
 
 ![Dashboard](docs/screenshots/dashboard.png)
