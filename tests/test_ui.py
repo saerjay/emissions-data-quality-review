@@ -94,3 +94,9 @@ def test_map_tab_renders_and_responds_to_choices(ui):
     country.set_value('India').run()
     assert not ui.exception
     assert any('India' in m.value for m in ui.markdown)
+
+
+def test_map_tab_has_no_unusualness_by_year_chart(ui):
+    text = " ".join(m.value for m in ui.markdown)
+    assert "Unusualness by year" not in text
+    assert any(m.label == "Unusualness" for m in ui.metric)    # the per-record value stays

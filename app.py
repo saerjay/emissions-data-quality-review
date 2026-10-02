@@ -556,21 +556,6 @@ def trend_chart(trend, measure, log_scale):
     return (band + line + points).properties(height=300)
 
 
-def unusualness_chart(trend):
-    data = trend.assign(status=np.where(trend['flagged'], 'Flagged', 'Not flagged'),
-                        label=trend['unusualness'].map(unusualness_label))
-    bars = alt.Chart(data).mark_bar(cornerRadiusEnd=3, strokeWidth=1).encode(
-        stroke=alt.condition("datum.status == 'Flagged'", alt.value(ANOMALY_COLOR), alt.value(TOKENS['teal'])),
-        x=alt.X('year:O', title=None, axis=alt.Axis(labelAngle=0, values=list(range(2000, 2026, 5)))),
-        y=alt.Y('unusualness:Q', title='Unusualness (%)', scale=alt.Scale(domain=[0, 100]),
-                axis=alt.Axis(values=[0, 50, 95, 100])),
-        color=alt.Color('status:N', scale=alt.Scale(domain=['Not flagged', 'Flagged'],
-                                                    range=[TOKENS['sky'], ANOMALY_COLOR]), legend=None),
-        tooltip=[alt.Tooltip('year:O', title='Year'), alt.Tooltip('label:N', title='Unusualness'), 'status'])
-    rule = alt.Chart(pd.DataFrame({'y': [95]})).mark_rule(color=INK_MUTED, strokeDash=[4, 4]).encode(y='y:Q')
-    return (bars + rule).properties(height=130)
-
-
 def render_map(scored, queue):
     measures = available_measures(scored)
     if not measures:
@@ -623,10 +608,7 @@ def render_map(scored, queue):
                                 help="Keeps the light blue typical range and this country readable on one chart.")
         show_chart(trend_chart(trend, measure, log_scale), width='stretch')
         st.caption("Light blue band: the middle half of all countries that year. Teal line: this country.")
-        st.markdown("**Unusualness by year**", help=UNUSUALNESS_HELP)
-        show_chart(unusualness_chart(trend), width='stretch')
-        st.caption("Dashed line = 95%, the start of 'High'. Rust bars are flagged years. "
-                   "Flags apply to the whole record; the reason is shown below the charts.")
+        st.caption("Flags apply to the whole record; the reason is shown below the charts.")
 
     st.markdown(f"**What this shows:** {trend_summary(trend, measure)}")
     record = trend[trend['year'] == year]
