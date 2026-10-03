@@ -1,8 +1,8 @@
 # Emissions Data Quality Review
 
-An automated quality review for emissions data. Before emissions numbers go into a sustainability report, they need to be checked for quality and accuracy. This app checks every record in public country data from [Our World in Data](https://ourworldindata.org/co2-and-greenhouse-gas-emissions), flags what looks wrong, explains why, and produces a ranked list of records for manual review.
+An automated quality review for emissions data. Before emissions numbers go into a sustainability report, they need to be checked for quality and accuracy. This app checks every record in public country data from [Our World in Data](https://ourworldindata.org/co2-and-greenhouse-gas-emissions), flags data appearing inaccurate, explains why, and produces a ranked list of records for manual review.
 
-## Link to app: https://emissions-data-quality-review.streamlit.app/
+## Live Link to app: https://emissions-data-quality-review.streamlit.app/
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
@@ -13,7 +13,7 @@ An automated quality review for emissions data. Before emissions numbers go into
 | Records checked | 4,975 country-years (199 countries, 2000–2024) |
 | Ready to use | 97% passed every check |
 | Need a manual check | 40 records (plus 99 low-priority records from 4 countries that are unusual every year) |
-| Hidden mistakes found on unseen countries | **80%** of all planted mistakes; 64% of those that basic rules cannot catch |
+| Hidden mistakes found on unseen countries | **80%** of all planted/simulated mistakes; 64% of those that basic rules missed |
 | Good records flagged by mistake | 4.0% on the test set (0.2% on the validation set) |
 
 ## How it works
@@ -26,11 +26,11 @@ An automated quality review for emissions data. Before emissions numbers go into
    - **Range check** (robust z-score): values far outside anything seen in training countries, which catches unit mistakes.
    - **Pattern check** (Isolation Forest, explained with SHAP): combinations of values that do not fit together.
 5. **Test the checker:** inject 7 types of realistic mistakes (wrong units, misplaced decimals, swapped columns, duplicates and more) into held-out countries and measure how many are found. 90 setting combinations were compared on the validation set; the chosen settings were scored once on the test set.
-6. **Report:** a readiness verdict, a prioritized review list (High / Medium / Low) and a per-record explanation.
+6. **Report:** a list of ready to report data, a prioritized manual review list (High / Medium / Low), and a record-by-record explanation.
 
 ### Quality improvement
 
-The first version found only 38% of the mistakes that basic rules did not. Further testing revealed the pattern check cannot recognize values outside the range it was trained on, so a number 1,000 times too large looked like the largest real country. Adding a range check raised this to 64% while keeping false alarms within the 3% target on the validation set.
+The first version found only 38% of raw data mistakes. Further testing revealed the pattern check cannot recognize values outside the range it was trained on, so a number 1,000 times too large looked like the largest real country. Adding a range check raised this to 64% while keeping false alarms within the 3% target on the validation set. 
 
 | Emissions map and trend | Measured reliability |
 |---|---|
@@ -89,6 +89,7 @@ The color theme (teal, periwinkle, sky, rust) is checked automatically: text mee
 - 19 countries, mostly small islands and territories, could not be checked because a key measure was never reported.
 - Misplaced-decimal mistakes (10×) are the hardest to catch: 27% found on the test set.
 - This checker does not indicate which data are lower quality. It serves to streamline the manual review process and prioritize for human review.
+- Models that are vibe coded risk hallucinations, blind spots, and vulnerable dependencies. Although this was supervised and architected by a human, it is worth noting that both machines and people make mistakes. 
 
 ## Data source
 
